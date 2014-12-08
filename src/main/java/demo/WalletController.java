@@ -20,8 +20,8 @@ public class WalletController {
 	String key ;
 	WalletController(){
 		prefix = "/unittest-" + UUID.randomUUID().toString();
-		client = new EtcdClient(URI.create("http://54.67.0.61:4001/"));
-		key = "/myCounterAR";
+		client = new EtcdClient(URI.create("http://54.183.220.147:4001/"));
+		key = "/009982908";
 		System.out.println("Connection established successfully");
 	}
 	
